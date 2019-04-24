@@ -43,5 +43,9 @@ class DiceViewController: UIViewController {
         }
     }
     
+    @IBAction func okbutton(){
+        self.dismiss(animated: true, completion: nil)
+    }
+    
 
 }

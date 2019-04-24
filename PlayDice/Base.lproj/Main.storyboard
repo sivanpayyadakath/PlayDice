@@ -57,6 +57,9 @@
                                 <rect key="frame" x="192" y="661" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="OK"/>
+                                <connections>
+                                    <action selector="okbutton" destination="IEl-Ta-TMg" eventType="touchUpInside" id="nR2-qQ-5m7"/>
+                                </connections>
                             </button>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="861-ZJ-p3P" userLabel="dice-1">
                                 <rect key="frame" x="87" y="167" width="240" height="128"/>
